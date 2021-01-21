@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="image/x-icon" href="images/plant.png">
+	<title>GrowithME</title>
+
+	<!--Meta tags-->
+	<meta charset='UTF-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name='keywords'>
+	<meta name='description'>
+	<meta name='subject'>
+	<meta name='copyright'>
+	<meta name='language' content='EN'>
+	<meta name='author'>
+	<meta name='revised'>
+	<meta name='HandheldFriendly'>
+<style>
+	* {box-sizing: border-box;}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+
+
+</head>
+
+<body>
+	
+	<input type="checkbox" id="menu-toggle" />
+	<nav class="content" id="menu">
+		<ul class="navbar">
+			<li class="navlink" id="toggletext"><label for="menu-toggle" style="font-size: 1.6em;">&#8801;</label></li>
+			<li class="navlink" id="lionlogo"><a href="index.html"><img src="images/plant.png" height="50"
+						alt="Lion icon"></a></li>
+			<li class="cpage navlink"><a href="index.html">Home</a></li>
+			<li class="navlink"><a href="pages/techniques.html">Techniques</a></li>
+			<li class="navlink"><a href="pages/recycle.html">Recycle</a></li>
+			<li class="navlink"><a href="pages/media.html">Media</a></li>
+			<li class="navlink"><a href="pages/useful_links.html">Useful links</a></li>
+		</ul>
+	</nav>
+
+	<section class="content">
+		<strong>
+			<h1>How I Started Gardening?</h1>
+		</strong>
+
+		
+			<p>
+				It was the time during lockdown that made me do something just to spend my time and never thought that
+				could take me such a long way. It was boring to stay home all day with the same routine of attending
+				online classes, doing household chores and preparing for placements. Its a coincidence that my love
+				towards nature lead me to a hobby of terrace gardening. The COVID-19 pandemic had made me so depressed
+				about uncertainities in life and gardening was the one thing that gave me hope.
+			</p>
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+				  <div class="numbertext">1 / 3</div>
+				  <img src="images/tom.jpg" style="width:100%;">
+				 
+				</div>
+				
+				<div class="mySlides fade">
+				  <div class="numbertext">2 / 3</div>
+				  <img src="images/grow.jpg" style="width:100%;">
+				  
+				</div>
+				
+				<div class="mySlides fade">
+				  <div class="numbertext">3 / 3</div>
+				  <img src="images/flow.jpg" style="width:100%;">
+				  
+				</div>
+				
+				</div>
+				<br>
+				
+				<div style="text-align:center">
+				  <span class="dot"></span> 
+				  <span class="dot"></span> 
+				  <span class="dot"></span> 
+				</div>
+				<script>
+					var slideIndex = 0;
+					showSlides();
+					
+					function showSlides() {
+					  var i;
+					  var slides = document.getElementsByClassName("mySlides");
+					  var dots = document.getElementsByClassName("dot");
+					  for (i = 0; i < slides.length; i++) {
+						slides[i].style.display = "none";  
+					  }
+					  slideIndex++;
+					  if (slideIndex > slides.length) {slideIndex = 1}    
+					  for (i = 0; i < dots.length; i++) {
+						dots[i].className = dots[i].className.replace(" active", "");
+					  }
+					  slides[slideIndex-1].style.display = "block";  
+					  dots[slideIndex-1].className += " active";
+					  setTimeout(showSlides, 2000); // Change image every 2 seconds
+					}
+					</script>
+			<!-- <img src="images/grow.jpg" alt="" width="1000" height="800" id="growithme" /> -->
+			<!-- <figcaption id="fc" class="text">To plant a Garden is to believe in Tomorrow</figcaption> -->
+			<p>
+				It was in early July of 2020 when I started growing my first microgreen, fenugreek that I got from our
+				kitchen. Day by day the scale of growing increased, I started sowing tomatoes, chillies, coriander and
+				many other seeds that I commonly get from the kitchen and later on with potato sprouts, onions, gingers,
+				garlic, cucumbers, brinjal, peas, beans, bhindi and some medicinal plants like balloon vine, holy
+				basil,curry leaves and carom. Every morning, I wake up excited to check whether the seeds have
+				germinated, what plant would have bloomed and what can be harvest. I started using this lockdown to
+				discover the joy of growing my own food and unveil the wonderful things that it will lead to.</p>
+			<img src="images/flower.jpg" width="300" height="260" id="xx" />
+			<p>
+				Growing plants and taking care of them like my children was so satisfying. I gradually got addicted to
+				thishobby; initially it was 4-5 plants and now its around 10 varities of flowering plants and more than
+				15vegetables and herbs plants on my terrace. Looking at their everyday growth, waiting for males
+				andfemale flowers on gourds, understanding their life cycle, reading books on gardening, watching
+				numerousyoutube channels, following so many inspiring home gardeners on social media and experimenting
+				stuffwas all that took me to another world. It fills so much hope as you sow seeds and expecting them
+				togerminate, transplanting the seedlings and praying that it doesnt die, watering the young plants
+				withpatience. It is just the most calm and wonderful feeling.
+			</p>
+			</p>
+			<img src="images/seedling.jpg" width="300" height="300" id="x" />
+			<p>
+				The idea of reuse, sustainable living and zero waste lifestyle started influencing me and I started
+				growingherbs and seelding in old cartoon boxes, batter covers, milk packets, waste bottles and
+				containers whichproved that space is never a constraint to grow food. And as soil plays a very important
+				role ingrowing plants, it was needful for me to look for an alternative to use less soil and make use of
+				dryleafs and coconut coir which are easily available, increase wetability, improve root growth andmore
+				importantly, a zero budget composting method that I can have adopted. Saving seeds from my ownplants was
+				another practice that really helps to get fresh vegetables throughout the year without buyingseeds from
+				stores. As I am a enthusiast of photography, capturing beauties of my garden and documentingthem is a
+				joyful thing which I have shared in this website.
+			</p>
+			<p>
+				The journey of gardening is such a pleasure because it is an experience that has a new angle every day
+				and has no end to it. I have been learning the lessons of life - learning from mistakes, being hopful,
+				believing in tomorrow, appreciating nature's beauty, importance of food, and satisfation in little
+				things that make so much difference. I'm sharing my love for gardening and want to bring awareness among
+				everyone about organic farming and inspire everyone to become confident in growing their own greens for
+				a healthier lifestyle and a sustainable future. So I invite you to join me as you start your gardening
+				journey and let’s look forward to delicious future together!
+			</p>
+		
+		<br>
+		<br>
+	</section>
+	<?php include 'count.php';?>
+</body>
+
+</html>
